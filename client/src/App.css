@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  background: #ccc;
+  padding: 1rem;
+  align-items: center;
+}
+
+.alert {
+  padding: 0.8rem;
+  opacity: 0.9;
+  background: #ccc;
+  color: #333;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 1rem 
+}
+
+.alert-success {
+  background: #28a745;
+}
+
+.alert-danger {
+  background: #dc3545;
+}
+
+.mx-1 {
+  margin: 0 1rem;
+}
